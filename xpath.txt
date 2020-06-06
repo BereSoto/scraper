@@ -1,0 +1,4 @@
+links = $x('//h2[@class="headline"]/a/@href')
+Titulo = $x('//h1[@class="headline"]/a/text()')
+resumen = $x('//div[@class="lead"]/p/text()')
+cuerpo =$x('//div[@class="articleWrapper  "]/p[not(@class)]/text()')
